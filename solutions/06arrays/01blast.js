@@ -1,5 +1,5 @@
-function getFirst(arr) {
+function getLast(arr) {
   return arr[arr.length -1]
 }
 
-console.log(getFirst([1, 2, 3])) // 3
+console.log(getLast([1, 2, 3])) // 3
