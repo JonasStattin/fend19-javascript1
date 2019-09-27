@@ -1,7 +1,7 @@
 function makeNumbers(obj) {
   const keys = Object.keys(obj)
   for (let i = 0; i < keys.length; i++) {
-    if (isNaN(parseInt(obj[keys[i]])) === false) {
+    if (isNaN(obj[keys[i]]) === false) {
       obj[keys[i]] = parseInt(obj[keys[i]])
     }
   }
