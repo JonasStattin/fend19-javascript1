@@ -1,0 +1,112 @@
+/* Change font for the entire page to use Helvetica, Arial, sans-serif
+   Change base color to a softer gray, #333333 
+   And backgrojnd color #E8E5E8 */
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  color: #333333;
+  background: #FFFBFF;
+}
+
+/* Make the text in the nav in header centered */
+header nav {
+  text-align: center;
+}
+
+/* Use inline block to make menu links use padding and margins
+   Give the links a padding of 12 pixels
+   And a margin of 4 pixels
+   Give the links a background of #FE938C
+   And a text color of #ffffff
+   And a bold font-weight
+   Give the links a border of 3 pixel width of the color #FED7D5 */
+header nav a {
+  display: inline-block;
+  background: #FE938C;
+  color: #ffffff;
+  font-weight: bold;
+  padding: 12px;
+  margin: 4px;
+  border: 3px solid #FED7D5;
+}
+
+/* Find the link with the class "current"
+   Give it background color #FED7D5
+   Give it a border of 3 pixel width with the color #FE938C
+   Give it text color with #605A64 */
+header nav a.current {
+  background: #FED7D5;
+  border: 3px solid #FE938C;
+  color: #605A64;
+}
+
+/* Give the main element a width of 60% 
+   And a left margin of 20% */
+main {
+  width: 60%;
+  margin-left: 20%;
+}
+
+/* Make the first p after h1 inside main have bold text */
+main h1 + p {
+  font-weight: bold;
+}
+
+/* Find all span tags with the class "mainpoint" in main 
+   Make them bold
+   And give them the color
+*/
+main p span.mainpoint {
+  font-weight: bold;
+  color: #FE938C;
+}
+
+/* Give all headlines from h1 to h5 a 
+   border bottom of 1 pixel with the color #333333 */
+h1, h2, h3, h4, h5 {
+  border-bottom: 1px solid #333333;
+}
+
+/* Find the last li in the list with the class "items"
+   Make the text bold
+   And have the color #FE938C
+    */
+main ul.items li:last-child {
+  font-weight: bold;
+  color: #FE938C;
+}
+
+/* Make all tables take full 100% width */
+table {
+  width: 100%;
+}
+
+/* Make table head cells have left aligned text
+   And a background with color #FE938C */
+th {
+  text-align: left;
+  background: #FE938C;
+}
+
+/* Make both th and td have a padding of 5px */
+th, td {
+  padding: 5px;
+}
+
+/* Find each other (even) table row in all tables 
+   Give them background color #69626D
+   And text color #ffffff
+*/
+tr:nth-child(even) {
+  color: #ffffff;
+  background-color: #69626D;
+}
+
+/* Find the element with the id "copyright"
+   Make the text centered
+   Make the font-style italic
+   Make the size of the text 10 pixels */
+#copyright {
+  text-align: center;
+  font-style: italic;
+  font-size: 10px;
+}
