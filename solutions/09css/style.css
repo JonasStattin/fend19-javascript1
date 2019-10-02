@@ -16,13 +16,13 @@ header nav {
    Give the links a padding of 12 pixels
    And a margin of 4 pixels
    Give the links a background of #FE938C
-   And a text color of #ffffff
+   And a text color of #FFFFFF
    And a bold font-weight
    Give the links a border of 3 pixel width of the color #FED7D5 */
 header nav a {
   display: inline-block;
   background: #FE938C;
-  color: #ffffff;
+  color: #FFFFFF;
   font-weight: bold;
   padding: 12px;
   margin: 4px;
@@ -94,10 +94,10 @@ th, td {
 
 /* Find each other (even) table row in all tables 
    Give them background color #69626D
-   And text color #ffffff
+   And text color #FFFFFF
 */
 tr:nth-child(even) {
-  color: #ffffff;
+  color: #FFFFFF;
   background-color: #69626D;
 }
 
