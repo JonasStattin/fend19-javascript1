@@ -1,0 +1,1 @@
+alert(`Din skärm är ${screen.width} pixlar bred, och ${screen.height} pixlar hög`)
