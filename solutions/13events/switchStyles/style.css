@@ -1,0 +1,13 @@
+.hot {
+  background: #8e1d10;
+  color: #fff5e0;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  padding: 10px;
+}
+
+.cool {
+  background: #3a84e4;
+  color: #e0fff7;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 10px;
+}
