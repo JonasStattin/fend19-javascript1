@@ -1,0 +1,16 @@
+.box {
+  position: relative;
+  width: 200px;
+  padding: 20px;
+  background: #facc9a;
+}
+
+.tooltip {
+  position: absolute;
+  right: -3px;
+  top: -3px;
+  border: 1px solid black;
+  margin: 0;
+  padding: 2px;
+  background: #ffffff;
+}

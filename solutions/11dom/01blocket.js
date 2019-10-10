@@ -1,5 +1,5 @@
 // 1. Hitta elementet med ID "item_87363892"
-console.log(document.getElementById('item_87363892'))
+console.log(document.querySelector('#item_87363892'))
 
 // 2. Hitta alla element med klassen "pull-left", loopa över listan, och console.log() varje item
 const allPullLeft = document.querySelectorAll('.pull-left')
@@ -40,12 +40,12 @@ const headerLink = document.querySelector('h1 a')
 console.log(headerLink.firstChild)
 
 // 8. Vad kostar den?
-const price = document.getElementsByClassName('list_price')
-console.log(price[0].firstChild)
+const price = document.querySelector('.list_price')
+console.log(price.firstChild)
 
 // 9. När lades produkten upp?
-const time = document.getElementsByTagName('time')
-console.log(time[0].firstChild)
+const time = document.querySelector('time')
+console.log(time.firstChild)
 
 // 10. Hitta elementet med attributet data-js
 console.log(document.querySelector('[data-js]'))
