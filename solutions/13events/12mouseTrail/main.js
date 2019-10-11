@@ -5,7 +5,7 @@ for (let i = 0; i<100; i++) {
   trail.style.height = '6px'
   trail.style.width = '6px'
   trail.style.borderRadius = '3px'
-  trail.style.background = 'teal'
+  trail.style.background = '#c2fffb'
   trails.push(trail)
 
   document.querySelector('body').appendChild(trail)
