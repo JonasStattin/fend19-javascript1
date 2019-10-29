@@ -1,0 +1,32 @@
+select {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.sweet {
+  background: #f58ad7;
+  font-style: italic;
+  color: #ffffff;
+  padding: 10px;
+  border: 5px dotted #ffffff;
+}
+
+.rough {
+  background: black;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-weight: bold;
+  color: #ff5900;
+  padding: 10px;
+  border: 5px groove #cccccc;
+}
+
+.bateman {
+  background: #e3dac9;
+  font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
+  padding: 20px;
+  text-shadow: 1px 1px #ffffff;;
+}
+
+.bateman h1 {
+  font-weight: normal;
+}
