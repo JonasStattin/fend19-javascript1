@@ -1,8 +1,10 @@
-const loginbtn = document.querySelector('#loginbtn')
+const loginbtn = document.querySelector('#login')
 const username = document.querySelector('#username')
 const Password = document.querySelector('#password')
 
-loginbtn.addEventListener('click', function(event) {
+login.addEventListener('submit', function(event) {
+  event.preventDefault()
+
   if (username.value === "admin") {
     if (password.value === "TheMaster") {
       alert("Welcome!")
